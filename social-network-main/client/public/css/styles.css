@@ -1,0 +1,127 @@
+h2,
+h3,
+body,
+.css-1juivf6-MuiTypography-root {
+  font-family: "Comfortaa", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.logo-name,
+h1 {
+  font-family: "Licorice", cursive !important;
+}
+
+.container-fluid h1 {
+  font-size: 9vh;
+  padding-top: 9vh;
+  color: white;
+}
+
+img {
+  width: 500px;
+}
+
+.form-label {
+  font-size: 17px;
+}
+
+/* .row .form-control {
+  border: none;
+  border-bottom: 1px solid;
+   border-top: 1px solid; 
+} */
+
+::placeholder {
+  font-size: 13px;
+}
+
+.bg-default-image {
+  background: linear-gradient(0deg, rgba(0, 0, 150, 0.3), rgba(0, 0, 150, 0.3)),
+    url("/images/default.jpg");
+  background-size: cover;
+  height: 40vh;
+  background-position-y: 70%;
+  backdrop-filter: blur(10px);
+}
+
+.card-shadow {
+  box-shadow: 3px 3px 13px #dddddd;
+}
+
+/* .bg-default-image-index {
+  background: linear-gradient(
+      rgba(176, 204, 246, 0.2),
+      rgba(138, 138, 138, 0.1)
+    ),
+    url("/images/default.jpg");
+  background-attachment: fixed;
+  padding: 100px 0 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  min-height: 100vh;
+  background-position-y: 270%;
+} */
+
+.container-custom {
+  background-color: #f4f6f7;
+  min-height: 100vh;
+}
+
+.container-custom input {
+  background-color: #f4f6f7;
+}
+
+.MuiFilledInput-input {
+  background-color: white !important;
+}
+
+.container-custom select {
+  background-color: #f4f6f7;
+}
+
+.box-shadow {
+  box-shadow: 1px 2px 7px #6395b0;
+}
+
+.active {
+  background-color: #e9eced !important;
+  /* box-shadow: 0 0px 4px #013362; */
+}
+
+.active-popup {
+  background: linear-gradient(
+    rgba(185, 200, 215, 0.3),
+    rgba(87, 106, 136, 0.1)
+  );
+}
+
+.ql-editor {
+  min-height: 100px;
+}
+
+.ql-bigger .ql-editor {
+  min-height: 40vh;
+}
+
+/* material ui change */
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  box-shadow: 0 0 0;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  box-shadow: 0px 2px 10px -1px #7f8799;
+}
+
+span a {
+  color: black;
+}
+
+span a:hover {
+  color: #1876d1;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+}
